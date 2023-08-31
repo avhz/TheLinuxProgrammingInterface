@@ -45,6 +45,7 @@ int main(int argc, char *argv[])
     }
 
     // Set flags for creating the output file and set the file permissions.
+    // The flags are bitmasks that are OR'd together.
     openFlags = O_CREAT | O_WRONLY | O_TRUNC;
     filePerms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH; /* rw-rw-rw- */
 
