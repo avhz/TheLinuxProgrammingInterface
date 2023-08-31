@@ -19,8 +19,7 @@
 #include <fcntl.h>
 #include "tlpi_hdr.h"
 
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int fd1, fd2, fd3;
 #define file "a"

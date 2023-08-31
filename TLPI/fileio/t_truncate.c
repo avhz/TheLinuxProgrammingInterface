@@ -17,8 +17,7 @@
 */
 #include "tlpi_hdr.h"
 
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     if (argc != 3 || strcmp(argv[1], "--help") == 0)
         usageErr("%s file length\n", argv[0]);

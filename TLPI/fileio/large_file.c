@@ -21,8 +21,7 @@
 #include <fcntl.h>
 #include "tlpi_hdr.h"
 
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int fd;
     off64_t off;
